@@ -17,6 +17,21 @@ public class UXRGrabEvents : MonoBehaviour
         _grab.Grabbed += OnGrabbed;
     }
 
+    private void OnGrabbed(object sender = null, UxrManipulationEventArgs e = null)
+    {
+        onGrab?.Invoke();
+    }
+
+
+    private void OnReleased(object sender = null, UxrManipulationEventArgs e = null)
+    {
+        onRelease?.Invoke();
+    }
+
+
+
+
+
     [ContextMenu("Editor Force onGrabbed")]
     void testGrab()
     {
@@ -29,16 +44,4 @@ public class UXRGrabEvents : MonoBehaviour
     {
         OnReleased();
     }
-
-    private void OnGrabbed(object sender = null, UxrManipulationEventArgs e = null)
-    {
-        onGrab?.Invoke();
-    }
-
-
-    private void OnReleased(object sender = null, UxrManipulationEventArgs e = null)
-    {
-        onRelease?.Invoke();
-    }
-
 }
