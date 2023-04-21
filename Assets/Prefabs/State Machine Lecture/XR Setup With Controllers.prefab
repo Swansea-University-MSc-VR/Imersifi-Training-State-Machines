@@ -273,7 +273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.01
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 10
+  m_LineLength: 8
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -329,7 +329,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   m_InvalidColorGradient:
     serializedVersion: 2
-    key0: {r: 0.4339623, g: 0, b: 0, a: 1}
+    key0: {r: 0.4339623, g: 0, b: 0, a: 0}
     key1: {r: 1, g: 1, b: 1, a: 0}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
@@ -678,7 +678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.01
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 10
+  m_LineLength: 8
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -734,7 +734,7 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   m_InvalidColorGradient:
     serializedVersion: 2
-    key0: {r: 0.4339623, g: 0, b: 0, a: 1}
+    key0: {r: 0.4339623, g: 0, b: 0, a: 0}
     key1: {r: 1, g: 1, b: 1, a: 0}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
@@ -2441,7 +2441,7 @@ MonoBehaviour:
   m_Camera: {fileID: 8192701731269263691}
   m_OriginBaseGameObject: {fileID: 7378361028432893969}
   m_CameraFloorOffsetObject: {fileID: 8192701731192642926}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.36144
 --- !u!114 &2868082861015915177
 MonoBehaviour:
