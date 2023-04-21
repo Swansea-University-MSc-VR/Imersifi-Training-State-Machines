@@ -1,1 +1,2 @@
 # VR-MSc-Training-State-Machines
+A state machine is a model consisting of a set of states, transitions, and actions. It can be used to represent the behaviour of a system that has a finite number of states, where the transitions between these states are based on a specific set of rules. Each state represents a specific condition or mode of the system, and the transitions between states define how the system responds to inputs or events. Actions are executed when the system transitions from one state to another.
