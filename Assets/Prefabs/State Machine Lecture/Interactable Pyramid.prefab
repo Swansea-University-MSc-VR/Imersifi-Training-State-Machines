@@ -447,8 +447,8 @@ MonoBehaviour:
   m_IgnoreHoverPriorityEvents: 1
   m_IgnoreSelectEvents: 1
   m_IgnoreActivateEvents: 1
-  m_SelectClickAnimationMode: 1
-  m_ActivateClickAnimationMode: 1
+  m_SelectClickAnimationMode: 0
+  m_ActivateClickAnimationMode: 0
   m_ClickAnimationDuration: 0.25
   m_ClickAnimationCurve:
     m_UseConstant: 1
